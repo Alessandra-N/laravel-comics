@@ -34,6 +34,8 @@ header nav .logo img {
 header nav .links a {
   text-decoration: none;
   padding: 0 1rem;
+  color: #1c1c1c;
+  font-weight: bold;
 }
 header .jumbo {
   height: 500px;
@@ -66,7 +68,7 @@ main .container .current {
 main .container .card {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 2rem;
   width: 200px;
   height: 250px;
 }
@@ -79,6 +81,7 @@ main .container .card .card_poster img {
 main .container .card a {
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
 }
 main button {
   text-decoration: none;

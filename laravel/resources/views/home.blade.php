@@ -24,7 +24,7 @@
             </div>
 
             <div class="search">
-                <input type="search">
+                <input type="search" placeholder="Search">
             </div>
         </nav>
    
