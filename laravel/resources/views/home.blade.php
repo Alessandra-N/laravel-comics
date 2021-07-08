@@ -81,7 +81,6 @@
                 <div class="col"></div>
             </div>
             <div class="container_right">
-                <img src="img/dc-logo-bg.png" alt="">
             </div>
         </div>
     </div>

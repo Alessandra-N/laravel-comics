@@ -10,8 +10,10 @@
         display: flex;
         }
         .container_right {
+            background-image: url("../img/dc-logo-bg.png");
+            background-repeat: no-repeat;
+            height: 500px;
             width: 50%;
-            object-fit: cover;
         }  
     }
     

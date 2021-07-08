@@ -130,9 +130,10 @@ main .main_links .main_link a {
   display: flex;
 }
 .footer_top .container .container_right {
+  background-image: url("../img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  height: 500px;
   width: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .footer_bottom {
