@@ -117,8 +117,8 @@ main .main_links .main_link a {
 
 .footer_top {
   background-image: url("../img/footer-bg.jpg");
-  -o-object-fit: cover;
-     object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 500px;
 }
 .footer_top .container {
@@ -132,6 +132,7 @@ main .main_links .main_link a {
 .footer_top .container .container_right {
   background-image: url("../img/dc-logo-bg.png");
   background-repeat: no-repeat;
+  background-position: center;
   height: 500px;
   width: 50%;
 }
