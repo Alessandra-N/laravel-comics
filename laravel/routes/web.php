@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
+    $comics = config('comics.data');
+    $comics_collection = collect($comics);
 
     $data = [
         "links" => [
@@ -28,12 +30,15 @@ Route::get('/', function () {
             "FANS",
             "NEWS",
             "SHOP"
-        ]
+        ],
+        
     ];
 
-    return view('home', $data);
+    return view('home', $data, compact('comics'));
 })->name('home');
 
 Route::get('/single', function () {
+    
+
     return view('single');
 })->name('single');

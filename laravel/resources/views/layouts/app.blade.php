@@ -9,11 +9,9 @@
 </head>
 <body>
    
-        @yield('header_content')
+    @yield('header_content')
 
-        
-        
-
-    <a href="{{ route('single') }}">Single!</a>
+    @yield('main_content')
+    
 </body>
 </html>

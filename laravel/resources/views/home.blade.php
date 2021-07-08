@@ -32,5 +32,30 @@
 
     </header>
 
+
+@endsection
+
+@section("main_content")
+
+    <main>
+
+        <div class="container">
+            @foreach($comics as $comic) 
+            <div class="card">
+                <div class="card_poster">
+                    <img src="{{ $comic['thumb']}}" alt="">
+                </div>
+
+                <a href="">{{ $comic['title'] }}</a>
+
+                
+            </div>
+            
+
+            @endforeach
+        </div>
+
+    </main>
+
     <a href="{{ route('single') }}">Single!</a>
 @endsection

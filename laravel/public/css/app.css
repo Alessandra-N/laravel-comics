@@ -39,3 +39,32 @@ header .jumbo {
   height: 500px;
   background-image: url("../img/jumbotron.jpg");
 }
+
+main {
+  background-color: #1c1c1c;
+}
+main .container {
+  width: 80%;
+  margin: auto;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .container .card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 200px;
+  height: 250px;
+}
+main .container .card .card_poster {
+  height: 200px;
+}
+main .container .card .card_poster img {
+  max-height: 200px;
+}
+main .container .card a {
+  text-decoration: none;
+  color: white;
+}
