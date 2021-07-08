@@ -1,0 +1,19 @@
+header {
+    color: white;
+    .blue_container {
+        
+        background-color: $main_blue;
+        .copyright, nav {
+            @include center-section;
+        }
+        .copyright {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            :first-child {
+            margin-right: 2rem;
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  color: white;
+}
+header .blue_container {
+  background-color: #0282f9;
+}
+header .blue_container .copyright, header .blue_container nav {
+  width: 80%;
+  margin: auto;
+}
+header .blue_container .copyright {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .blue_container .copyright :first-child {
+  margin-right: 2rem;
+}
