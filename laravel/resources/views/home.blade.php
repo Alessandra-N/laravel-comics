@@ -70,5 +70,30 @@
         
     </main>
 
-    <a href="{{ route('single') }}">Single!</a>
+    
+@endsection
+
+@section("footer")
+
+<footer>
+    <div class="footer_top">
+        <div class="container">
+            <div class="container_left">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="container_right">
+                <img src="img/dc-logo-bg.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer_bottom">
+
+    </div>
+    
+</footer>
+<!-- <a href="{{ route('single') }}">Single!</a> -->
+
 @endsection

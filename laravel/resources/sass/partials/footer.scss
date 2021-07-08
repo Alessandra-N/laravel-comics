@@ -1,0 +1,23 @@
+.footer_top {
+    background-image: url("../img/footer-bg.jpg");
+    object-fit: cover;
+    height: 500px;
+    .container {
+        display: flex;
+        justify-content: space-between;
+      .container_left {
+        width: 50%;
+        display: flex;
+        }
+        .container_right {
+            width: 50%;
+            object-fit: cover;
+        }  
+    }
+    
+}
+
+.footer_bottom {
+    background-color: $footer_dark;
+    height: 200px;
+}

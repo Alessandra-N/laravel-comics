@@ -42,7 +42,6 @@ header .jumbo {
 
 main {
   background-color: #1c1c1c;
-  padding: 1rem 0;
   display: flex;
   flex-direction: column;
 }
@@ -101,4 +100,29 @@ main .main_links .main_link a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
+}
+
+.footer_top {
+  background-image: url("../img/footer-bg.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 500px;
+}
+.footer_top .container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_top .container .container_left {
+  width: 50%;
+  display: flex;
+}
+.footer_top .container .container_right {
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer_bottom {
+  background-color: #303030;
+  height: 200px;
 }
