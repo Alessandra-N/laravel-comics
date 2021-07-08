@@ -48,10 +48,20 @@ main {
 main .container {
   width: 80%;
   margin: auto;
-  padding: 2rem 0;
+  padding: 3rem 0;
   display: flex;
-  justify-content: space-around;
+  position: relative;
+  justify-content: space-between;
   flex-wrap: wrap;
+}
+main .container .current {
+  position: absolute;
+  padding: 1rem 3rem;
+  background-color: #0282f9;
+  color: white;
+  font-size: 50px;
+  top: -50px;
+  left: 0;
 }
 main .container .card {
   display: flex;

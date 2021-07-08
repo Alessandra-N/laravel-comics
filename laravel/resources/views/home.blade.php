@@ -40,6 +40,7 @@
     <main>
 
         <div class="container">
+            <div class="current">CURRENT SERIES</div>
             @foreach($comics as $comic) 
             <div class="card">
                 <div class="card_poster">
@@ -47,12 +48,8 @@
                 </div>
 
                 <a href="">{{ $comic['title'] }}</a>
-
-                
             </div>
             @endforeach
-
-           
         </div>
 
         <button>LOAD MORE</button>

@@ -5,10 +5,20 @@ main {
     flex-direction: column;
     .container {
         @include center-section;
-        padding: 2rem 0;
+        padding: 3rem 0;
         display: flex;
-        justify-content: space-around;
+        position: relative;
+        justify-content: space-between;
         flex-wrap: wrap;
+        .current {
+            position: absolute;
+            padding: 1rem 3rem;
+            background-color: $main_blue;
+            color: white;
+            font-size: 50px;
+            top: -50px;
+            left: 0;
+        }
         .card {
             display: flex;
             flex-direction: column;
