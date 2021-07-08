@@ -10,15 +10,32 @@ header {
 header .blue_container {
   background-color: #0282f9;
 }
-header .blue_container .copyright, header .blue_container nav {
+header .blue_container .copyright {
   width: 80%;
   margin: auto;
-}
-header .blue_container .copyright {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 header .blue_container .copyright :first-child {
   margin-right: 2rem;
+}
+header nav {
+  width: 80%;
+  margin: auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .logo img {
+  height: 80px;
+}
+header nav .links a {
+  text-decoration: none;
+  padding: 0 1rem;
+}
+header .jumbo {
+  height: 500px;
+  background-image: url("../img/jumbotron.jpg");
 }

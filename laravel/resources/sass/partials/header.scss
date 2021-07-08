@@ -1,12 +1,9 @@
 header {
     color: white;
     .blue_container {
-        
         background-color: $main_blue;
-        .copyright, nav {
-            @include center-section;
-        }
         .copyright {
+            @include center-section;
             display: flex;
             justify-content: flex-end;
             align-items: center;
@@ -14,6 +11,28 @@ header {
             margin-right: 2rem;
             }
         }
-        
+    }
+    nav {
+        @include center-section;
+        padding: 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+            img {
+                height: 80px;
+            }
+            
+        }
+        .links {
+            a {
+                text-decoration: none;
+                padding: 0 1rem;
+            }
+        }
+    }
+    .jumbo {
+        height: 500px;
+        background-image: url("../img/jumbotron.jpg");
     }
 }
