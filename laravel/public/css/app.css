@@ -42,6 +42,9 @@ header .jumbo {
 
 main {
   background-color: #1c1c1c;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
 }
 main .container {
   width: 80%;
@@ -67,4 +70,35 @@ main .container .card .card_poster img {
 main .container .card a {
   text-decoration: none;
   color: white;
+}
+main button {
+  text-decoration: none;
+  color: white;
+  background-color: #0282f9;
+  width: 200px;
+  align-self: center;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  border: none;
+}
+main .main_links {
+  background-color: #0282f9;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main_links .main_link {
+  display: flex;
+  align-items: center;
+  margin: 0 2rem;
+}
+main .main_links .main_link img {
+  margin: 0 1rem;
+  height: 50px;
+}
+main .main_links .main_link a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
 }

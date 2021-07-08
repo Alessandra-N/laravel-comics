@@ -50,11 +50,24 @@
 
                 
             </div>
-            
-
             @endforeach
+
+           
         </div>
 
+        <button>LOAD MORE</button>
+        
+        <div class="main_links">
+            @foreach($main_links as $main_link)
+            <div class="main_link">
+                
+                <img src="img/buy-{{ $main_link['src']}}" alt="">
+                <a href="#">{{ $main_link['title']}}</a> 
+                
+            </div>
+            @endforeach
+        </div>
+        
     </main>
 
     <a href="{{ route('single') }}">Single!</a>

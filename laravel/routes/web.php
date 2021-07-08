@@ -31,7 +31,28 @@ Route::get('/', function () {
             "NEWS",
             "SHOP"
         ],
-        
+        "main_links" => [
+            [
+                "src" => "comics-digital-comics.png",
+                "title" => "digital comics"
+            ],
+            [
+                "src" => "comics-merchandise.png",
+                "title" => "dc merchandise"
+            ],
+            [
+                "src" => "comics-subscriptions.png",
+                "title" => "subscription"
+            ],
+            [
+                "src" => "comics-shop-locator.png",
+                "title" => "Comic shop locator"
+            ],
+            [
+                "src" => "dc-power-visa.svg",
+                "title" => "dc power visa"
+            ],
+        ]
     ];
 
     return view('home', $data, compact('comics'));
