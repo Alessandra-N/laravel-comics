@@ -22,14 +22,14 @@ main {
         .card {
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
             padding: 2rem;
             width: 200px;
-            height: 250px;
+            height: 290px;
             .card_poster {
-                height: 200px;
-                img {
-                    max-height: 200px;
-                }
+                height: 150px;
+                width: 100%;
+                overflow: hidden;
             }
             a {
                 text-decoration: none;
