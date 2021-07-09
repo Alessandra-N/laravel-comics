@@ -14,23 +14,30 @@
    <div class="comic_wrapper">
 
         <div class="comic_wrapper_top">
-            <div class="comic_title">
-                {{$comic['title']}}
+            <div class="top_left">
+                <div class="comic_title">
+                    {{$comic['title']}}
+                </div>
+
+                <div class="comic_price">
+                    <div class="price_left">
+                        <p><span> U.S. Price:</span> {{$comic['price']}}</p>
+                        <p><span>Avaible</span></p>
+                    </div>
+                    <div class="price_right">
+                        <p>Check Avaibility</p>
+                    </div>
+                </div>
+
+                <div class="comic_description">
+                    {{$comic['description']}}
+                </div>
             </div>
 
-            <div class="comic_price">
-                <div class="price_left">
-                    <p><span> U.S. Price:</span> {{$comic['price']}}</p>
-                    <p><span>Avaible</span></p>
-                </div>
-                <div class="price_right">
-                    <p>Check Avaibility</p>
-                </div>
+            <div class="top_right">
+                <img src="{{asset('img/adv.jpg')}}" alt="">
             </div>
-
-            <div class="comic_description">
-                {{$comic['description']}}
-            </div>
+            
         </div>
 
         <div class="comic_wrapper_bot">

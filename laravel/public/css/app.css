@@ -153,13 +153,16 @@ header .jumbo {
   width: 60%;
   margin: auto;
 }
-#show_main .comic_wrapper .comic_wrapper_top .comic_title {
+#show_main .comic_wrapper .comic_wrapper_top {
+  display: flex;
+}
+#show_main .comic_wrapper .comic_wrapper_top .top_left .comic_title {
   font-size: 25px;
   font-weight: bold;
   text-transform: uppercase;
   color: #1c1c1c;
 }
-#show_main .comic_wrapper .comic_wrapper_top .comic_price {
+#show_main .comic_wrapper .comic_wrapper_top .top_left .comic_price {
   width: 60%;
   padding: 1rem 2rem;
   background-color: #55ba59;
@@ -167,11 +170,11 @@ header .jumbo {
   display: flex;
   justify-content: space-between;
 }
-#show_main .comic_wrapper .comic_wrapper_top .comic_price .price_left {
+#show_main .comic_wrapper .comic_wrapper_top .top_left .comic_price .price_left {
   display: flex;
   justify-content: space-between;
 }
-#show_main .comic_wrapper .comic_wrapper_top .comic_price .price_left span {
+#show_main .comic_wrapper .comic_wrapper_top .top_left .comic_price .price_left span {
   color: lightgreen;
 }
 #show_main .comic_wrapper .comic_wrapper_top .comic_description {
