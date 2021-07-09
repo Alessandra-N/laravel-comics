@@ -55,11 +55,12 @@ Route::get('/', function () {
         ]
     ];
 
-    return view('home', $data, compact('comics'));
-})->name('home');
+    return view('comics.index', $data, compact('comics'));
+})->name('index');
 
-Route::get('/single', function () {
-    
+Route::get('comics/{id}', function ($id) {
+    $comics = config('comics.data');
+    $comic = $comics[$id];
+    return view('comics.show', compact('comic'));
 
-    return view('single');
-})->name('single');
+})->name('comic');

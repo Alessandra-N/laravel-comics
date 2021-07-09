@@ -41,14 +41,16 @@
 
         <div class="container">
             <div class="current">CURRENT SERIES</div>
-            @foreach($comics as $comic) 
+            @foreach($comics as $index => $comic) 
             <div class="card">
+            <a href="{{route('comic', ['id' => $index])}}">
                 <div class="card_poster">
                     <img src="{{ $comic['thumb']}}" alt="">
                 </div>
-
-                <a href="">{{ $comic['title'] }}</a>
-            </div>
+                <p>{{ $comic['series'] }}</p>
+            </a>
+                
+        </div>
             @endforeach
         </div>
 
@@ -90,6 +92,5 @@
     </div>
     
 </footer>
-<!-- <a href="{{ route('single') }}">Single!</a> -->
 
 @endsection
