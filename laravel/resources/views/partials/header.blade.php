@@ -11,7 +11,9 @@
 
     <nav>
         <div class="logo">
-            <img src="../img/dc-logo.png" alt="">
+            <a href="{{route('index')}}">
+                <img src="../img/dc-logo.png" alt="">
+            </a>
         </div>
 
         <div class="links">
