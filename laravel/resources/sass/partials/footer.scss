@@ -24,4 +24,25 @@
 .footer_bottom {
     background-color: $footer_dark;
     height: 200px;
+    .container {
+        @include center-section;
+        display: flex;
+        justify-content: space-between;
+        .footer_icons {
+            display: flex;
+            .icons {
+                font-size: 30px;
+                display: flex;
+                .icon {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 50px;
+                    width: 50px;
+                    background-color: lightgrey;
+                    border-radius: 50px;;
+                }
+            }
+        }
+    }
 }

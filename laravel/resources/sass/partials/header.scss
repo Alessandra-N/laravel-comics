@@ -31,6 +31,19 @@ header {
                 color: $main_dark;
                 font-weight: bold;
             }
+            i {
+                color: black;
+            }
+        }
+        .search {
+            display: flex;
+            border-bottom: 1px solid $main_blue;
+            input {
+                border: none;
+            }
+            button {
+                border: none;
+            }
         }
     }
     .jumbo {

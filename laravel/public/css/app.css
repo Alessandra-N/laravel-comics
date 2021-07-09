@@ -38,6 +38,19 @@ header nav .links a {
   color: #1c1c1c;
   font-weight: bold;
 }
+header nav .links i {
+  color: black;
+}
+header nav .search {
+  display: flex;
+  border-bottom: 1px solid #0282f9;
+}
+header nav .search input {
+  border: none;
+}
+header nav .search button {
+  border: none;
+}
 header .jumbo {
   height: 500px;
   background-image: url("../img/jumbotron.jpg");
@@ -192,4 +205,26 @@ header .jumbo {
 .footer_bottom {
   background-color: #303030;
   height: 200px;
+}
+.footer_bottom .container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_bottom .container .footer_icons {
+  display: flex;
+}
+.footer_bottom .container .footer_icons .icons {
+  font-size: 30px;
+  display: flex;
+}
+.footer_bottom .container .footer_icons .icons .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  background-color: lightgrey;
+  border-radius: 50px;
 }

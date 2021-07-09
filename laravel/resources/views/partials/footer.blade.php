@@ -12,7 +12,33 @@
     </div>
 
     <div class="footer_bottom">
-
-    </div>
+        <div class="container">
+            <button>Sign up now</button>
     
+
+            <div class="footer_icons">
+                <h3>Follow us</h3>
+                <div class="icons">
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fab fa-pinterest-p"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
 </footer>
