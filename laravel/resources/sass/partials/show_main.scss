@@ -1,0 +1,42 @@
+#show_main {
+    .blue_line {
+        background-color: $main_blue;
+        height: 100px;
+        width: 100%;
+        position: relative;
+        img {
+            position: absolute;
+            bottom: 10px;
+            left: 20%;
+        }
+    }
+    .comic_wrapper {
+        width: 60%;
+        margin: auto;
+        .comic_title {
+            font-size: 25px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: $main_dark;
+        }
+        .comic_price {
+            width: 60%;
+            padding: 1rem 2rem;
+            background-color: #55ba59;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            .price_left {
+                display: flex; 
+                justify-content: space-between;
+                span {
+                color: lightgreen;
+                }
+            }
+        }
+        .comic_description {
+            font-size: 14px;
+            width: 60%;
+        }
+    }
+}

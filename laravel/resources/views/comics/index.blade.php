@@ -3,7 +3,7 @@
 
 
 @section("main_content")
-    <main>
+    <main id="index_main">
 
         <div class="container">
             <div class="current">CURRENT SERIES</div>
