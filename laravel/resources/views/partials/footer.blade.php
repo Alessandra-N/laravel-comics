@@ -2,9 +2,16 @@
     <div class="footer_top">
         <div class="container">
             <div class="container_left">
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
+                <div class="col">
+                    <h2>DC COMICS</h2>
+                    
+                </div>
+                <div class="col">
+
+                </div>
+                <div class="col">
+
+                </div>
             </div>
             <div class="container_right">
             </div>

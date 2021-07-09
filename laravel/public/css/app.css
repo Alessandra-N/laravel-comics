@@ -10,16 +10,22 @@ header {
 }
 header .blue_container {
   background-color: #0282f9;
+  padding: 0.5rem;
 }
 header .blue_container .copyright {
   width: 80%;
   margin: auto;
+  font-size: 14px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-header .blue_container .copyright :first-child {
+header .blue_container .copyright .copyright_left {
   margin-right: 2rem;
+}
+header .blue_container .copyright .copyright_left i {
+  font-size: 10px;
+  vertical-align: top;
 }
 header nav {
   width: 80%;

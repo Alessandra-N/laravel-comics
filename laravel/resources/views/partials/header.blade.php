@@ -3,7 +3,7 @@
     <div class="blue_container">
         
         <div class="copyright">
-            <div>
+            <div class="copyright_left">
                 DC POWER<i class="fas fa-trademark"></i> 
                 VISA<i class="far fa-registered"></i>
             </div>

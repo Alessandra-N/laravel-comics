@@ -2,13 +2,20 @@ header {
     color: white;
     .blue_container {
         background-color: $main_blue;
+        padding: 0.5rem;
         .copyright {
             @include center-section;
+            font-size: 14px;
             display: flex;
             justify-content: flex-end;
             align-items: center;
-            :first-child {
-            margin-right: 2rem;
+            .copyright_left {
+                margin-right: 2rem;
+                i {
+                    font-size: 10px;
+                    vertical-align: top;
+                }
+                
             }
         }
     }
