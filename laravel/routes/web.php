@@ -59,8 +59,24 @@ Route::get('/', function () {
 })->name('index');
 
 Route::get('comics/{id}', function ($id) {
+
+    $data = [
+        "links" => [
+            "CHARACTERS",
+            "COMICS",
+            "MOVIES",
+            "TV",
+            "GAMES",
+            "COLLECTIBLES",
+            "VIDEOS",
+            "FANS",
+            "NEWS",
+            "SHOP"
+        ],
+    ];
+
     $comics = config('comics.data');
     $comic = $comics[$id];
-    return view('comics.show', compact('comic'));
+    return view('comics.show', compact('comic'), $data);
 
 })->name('comic');

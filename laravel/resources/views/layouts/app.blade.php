@@ -9,11 +9,11 @@
 </head>
 <body>
    
-    @yield('header_content')
+    @include('partials.header')
 
     @yield('main_content')
 
-    @yield('footer')
+    @include('partials.footer')
     
 </body>
 </html>

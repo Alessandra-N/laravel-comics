@@ -1,42 +1,8 @@
-@extends ('layouts.app')
-
-@section("header_content")
-    <header id="header">
-        
-        <div class="blue_container">
-            
-            <div class="copyright">
-                <div>DC POWER VISA</div>
-                <div>ADDITIONAL DC SITE</div>
-            </div>
-
-        </div>
-
-        <nav>
-            <div class="logo">
-                <img src="../img/dc-logo.png" alt="">
-            </div>
-
-            <div class="links">
-                @foreach($links as $link)
-                    <a href="">{{ $link }}</a>
-                @endforeach
-            </div>
-
-            <div class="search">
-                <input type="search" placeholder="Search">
-            </div>
-        </nav>
-   
-        <div class="jumbo"></div>        
-
-    </header>
+@extends('layouts.app')
 
 
-@endsection
 
 @section("main_content")
-
     <main>
 
         <div class="container">
@@ -68,29 +34,4 @@
         </div>
         
     </main>
-
-    
-@endsection
-
-@section("footer")
-
-<footer>
-    <div class="footer_top">
-        <div class="container">
-            <div class="container_left">
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-            </div>
-            <div class="container_right">
-            </div>
-        </div>
-    </div>
-
-    <div class="footer_bottom">
-
-    </div>
-    
-</footer>
-
 @endsection
