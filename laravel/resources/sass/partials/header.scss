@@ -29,7 +29,6 @@ header {
             img {
                 height: 80px;
             }
-            
         }
         .links {
             a {
@@ -47,6 +46,10 @@ header {
             border-bottom: 1px solid $main_blue;
             input {
                 border: none;
+                /* ::placeholder {
+                    color: red;
+                    font-weight: bold;
+                } */
             }
             button {
                 border: none;

@@ -2,16 +2,29 @@
     <div class="footer_top">
         <div class="container">
             <div class="container_left">
-                <div class="col">
-                    <h2>DC COMICS</h2>
-                    
-                </div>
-                <div class="col">
+                <div class="columns">
+                    <div class="col">
+                        <h2>DC COMICS</h2>
 
-                </div>
-                <div class="col">
+                        <h2>SHOP</h2>
 
+                    </div>
+                    <div class="col">
+                        
+                        <h2>DC</h2>
+
+                    </div>
+                    <div class="col">
+                        <h2>SITES</h2>
+                    </div>
                 </div>
+                
+
+                <div class="footer_copyright">
+                    All Site Content TM and c 2020 DC Entertainment, unless otherwise <a href="#">noted here</a>. All rights reserved.
+                    <a href="#">Cookies Settings</a>
+                </div>
+
             </div>
             <div class="container_right">
             </div>

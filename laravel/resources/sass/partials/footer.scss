@@ -3,12 +3,19 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    font-size: 12px;
+    h2 {
+        color: white;
+        font-size: 25px;
+    }
     .container {
         display: flex;
         justify-content: space-between;
       .container_left {
         width: 50%;
-        display: flex;
+        .footer_copyright {
+            color: gray;
+        }
         }
         .container_right {
             background-image: url("../img/dc-logo-bg.png");
@@ -23,15 +30,32 @@
 
 .footer_bottom {
     background-color: $footer_dark;
-    height: 200px;
     .container {
         @include center-section;
+        padding: 3rem 0;
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        button {
+            text-transform: uppercase;
+            font-size: 20px;
+            background-color: transparent;
+            color: white;
+            padding: 1rem 2rem;
+            border: 3px solid $main_blue;
+        }
         .footer_icons {
             display: flex;
+            justify-content: center;
+            align-items: center;
+            h3 {
+                color: $main_blue;
+                text-transform: uppercase;
+                font-size: 25px;
+            }
             .icons {
                 font-size: 30px;
+                color: $footer_dark;
                 display: flex;
                 .icon {
                     display: flex;
@@ -39,8 +63,9 @@
                     align-items: center;
                     height: 50px;
                     width: 50px;
-                    background-color: lightgrey;
+                    background-color: gray;
                     border-radius: 50px;;
+                    margin-left: 1rem;
                 }
             }
         }

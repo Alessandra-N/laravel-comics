@@ -53,6 +53,10 @@ header nav .search {
 }
 header nav .search input {
   border: none;
+  /* ::placeholder {
+      color: red;
+      font-weight: bold;
+  } */
 }
 header nav .search button {
   border: none;
@@ -89,13 +93,12 @@ header .jumbo {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 2rem;
-  width: 200px;
+  padding: 1rem;
+  width: calc(100% / 6 - 1rem);
   height: 290px;
 }
 #index_main .container .card .card_poster {
-  height: 150px;
-  width: 100%;
+  height: 180px;
   overflow: hidden;
 }
 #index_main .container .card a {
@@ -191,6 +194,11 @@ header .jumbo {
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+  font-size: 12px;
+}
+.footer_top h2 {
+  color: white;
+  font-size: 25px;
 }
 .footer_top .container {
   display: flex;
@@ -198,7 +206,9 @@ header .jumbo {
 }
 .footer_top .container .container_left {
   width: 50%;
-  display: flex;
+}
+.footer_top .container .container_left .footer_copyright {
+  color: gray;
 }
 .footer_top .container .container_right {
   background-image: url("../img/dc-logo-bg.png");
@@ -210,19 +220,36 @@ header .jumbo {
 
 .footer_bottom {
   background-color: #303030;
-  height: 200px;
 }
 .footer_bottom .container {
   width: 80%;
   margin: auto;
+  padding: 3rem 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.footer_bottom .container button {
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  padding: 1rem 2rem;
+  border: 3px solid #0282f9;
 }
 .footer_bottom .container .footer_icons {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_bottom .container .footer_icons h3 {
+  color: #0282f9;
+  text-transform: uppercase;
+  font-size: 25px;
 }
 .footer_bottom .container .footer_icons .icons {
   font-size: 30px;
+  color: #303030;
   display: flex;
 }
 .footer_bottom .container .footer_icons .icons .icon {
@@ -231,6 +258,7 @@ header .jumbo {
   align-items: center;
   height: 50px;
   width: 50px;
-  background-color: lightgrey;
+  background-color: gray;
   border-radius: 50px;
+  margin-left: 1rem;
 }
