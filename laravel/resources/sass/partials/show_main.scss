@@ -13,30 +13,42 @@
     .comic_wrapper {
         width: 60%;
         margin: auto;
-        .comic_title {
-            font-size: 25px;
-            font-weight: bold;
-            text-transform: uppercase;
-            color: $main_dark;
-        }
-        .comic_price {
-            width: 60%;
-            padding: 1rem 2rem;
-            background-color: #55ba59;
-            color: white;
-            display: flex;
-            justify-content: space-between;
-            .price_left {
-                display: flex; 
+        .comic_wrapper_top {
+            .comic_title {
+                font-size: 25px;
+                font-weight: bold;
+                text-transform: uppercase;
+                color: $main_dark;
+            }
+            .comic_price {
+                width: 60%;
+                padding: 1rem 2rem;
+                background-color: #55ba59;
+                color: white;
+                display: flex;
                 justify-content: space-between;
-                span {
-                color: lightgreen;
+                .price_left {
+                    display: flex; 
+                    justify-content: space-between;
+                    span {
+                    color: lightgreen;
+                    }
                 }
             }
+            .comic_description {
+                font-size: 14px;
+                width: 60%;
+            }
         }
-        .comic_description {
-            font-size: 14px;
-            width: 60%;
+        .comic_wrapper_bot {
+            background-color: #f6f6f6;
+            display: flex;
+            .bot_left {
+                width: 50%;
+            }
+            .bot_right {
+                width: 50%;
+            }
         }
     }
 }

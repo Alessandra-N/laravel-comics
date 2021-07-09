@@ -131,13 +131,13 @@ header .jumbo {
   width: 60%;
   margin: auto;
 }
-#show_main .comic_wrapper .comic_title {
+#show_main .comic_wrapper .comic_wrapper_top .comic_title {
   font-size: 25px;
   font-weight: bold;
   text-transform: uppercase;
   color: #1c1c1c;
 }
-#show_main .comic_wrapper .comic_price {
+#show_main .comic_wrapper .comic_wrapper_top .comic_price {
   width: 60%;
   padding: 1rem 2rem;
   background-color: #55ba59;
@@ -145,16 +145,26 @@ header .jumbo {
   display: flex;
   justify-content: space-between;
 }
-#show_main .comic_wrapper .comic_price .price_left {
+#show_main .comic_wrapper .comic_wrapper_top .comic_price .price_left {
   display: flex;
   justify-content: space-between;
 }
-#show_main .comic_wrapper .comic_price .price_left span {
+#show_main .comic_wrapper .comic_wrapper_top .comic_price .price_left span {
   color: lightgreen;
 }
-#show_main .comic_wrapper .comic_description {
+#show_main .comic_wrapper .comic_wrapper_top .comic_description {
   font-size: 14px;
   width: 60%;
+}
+#show_main .comic_wrapper .comic_wrapper_bot {
+  background-color: #f6f6f6;
+  display: flex;
+}
+#show_main .comic_wrapper .comic_wrapper_bot .bot_left {
+  width: 50%;
+}
+#show_main .comic_wrapper .comic_wrapper_bot .bot_right {
+  width: 50%;
 }
 
 .footer_top {
